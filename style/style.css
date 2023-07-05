@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: Helvetica;
+    background-color: #FC766AFF;
+}
+
+.nav {
+    height: 80px;
+    width: 100%;
+    background-color: #184A45FF;
+}
+.nav ul{
+    float: right;
+    margin-right: 20px;
+}
+.nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 50px;
+}
+.nav ul li a{
+    color: #FC766AFF;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+@media (max-width: 858px){
+    .nav ul{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-right: 0;
+
+    }
+    .nav ul li{
+        display: block;
+        line-height: 2.5rem;
+        text-align: center;  
+    }
+    .nav{
+        height: 8rem;
+        text-align: center;
+    }
+}
+
+.logo{
+    width: 100%;
+    text-align:center;
+    display: inline-block;
+    margin-top: 5rem;
+}
+.logo h1 {
+    text-align: center;
+    font-size: 9rem;
+    background-color: #B0B8B4FF;
+    color:#184A45FF;
+    padding: 40px 20px;
+}
+@media (max-width: 858px){
+    .logo h1{
+        font-size: 4.5rem;
+    }
+}
+.mission {
+    width: 100%;
+    margin-left: 3%;
+    margin-top: 6rem;
+    margin-bottom: 6%;
+    
+}
+.mission h1{
+    font-size: 6rem;
+    font-family: 'Permanent Marker', cursive;
+    color: #B0B8B4FF;
+    margin-bottom: 4rem;
+}
+.mission h2{
+    color:#184A45FF;
+    width: 100%;
+}
+.mission h2 a{
+    color:rgb(238, 244, 241);
+}
+.mission .work {
+    color: #184A45FF;
+}
+.image {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.image img{
+    width: 100%;
+    margin: 0 auto;
+}
+.quotation{
+    width: 100%;
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    padding: 2rem;
+    background-color: #B0B8B4FF;
+    color:#184A45FF;
+    border-radius: 50%;
+}
+.quote{
+    font-size:3rem;
+    margin-bottom: 1rem;
+    color:#184A45FF;
+}
+.end {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+    text-align:center;
+    color:#184A45FF;
+    font-size: 2rem;
+}
+.call {
+    font-family: 'Permanent Marker', cursive;
+}
+.location {
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+#insta {
+    width: 70%;
+    height: auto;
+}
+.end span {
+    color:#B0B8B4FF;
+}
+
+@media (max-width: 858px){
+    .mission  {
+        text-align: center;
+        margin-left: 0;
+        padding: 3%;
+        margin-top: 2rem;
+    }
+    .mission h1 {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+    .mission .work{
+        margin: 0;
+    }
+    .tagline{
+        line-height: 5rem;
+    }
+    .quotation{
+        margin-left:0;
+    }
+    .end {
+        font-size: 1rem;
+    }
+    #insta{
+        width: 80%;
+    }
+}
